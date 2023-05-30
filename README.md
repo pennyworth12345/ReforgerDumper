@@ -4,6 +4,14 @@ The only places files can be written to is `$save` and `$profile`, and this plug
 
 The code for this plugin is based on the `SampleMod_WorkbenchPlugin` released by [Bohemia Interactive on their GitHub](https://github.com/BohemiaInteractive/Arma-Reforger-Samples).
 
+## Installation
+
+Clone this project into your addons folder. There is also a version on the Reforger Workshop you can download (but you may want to compare the date of the last version to ensure it is up-to-date).
+
+In the Enfusion Workbench Launcher, click the 'Add Existing' button and select ReforgerDumper's `addon.gproj` file. Open the 'Reforger Dumper' project. The plugin will now be available from within that project.
+
+Since this tool is for dumping the Reforger base files, there is no need to incorporate this plugin with another project. However, if you wish to do so, you may add this project as a dependency with your own. Just be sure to remove it before you publish your work.
+
 ## Using the Reforger Dumper
 While you have the Enfusion Workbench open, press Ctrl + D to open the UI for the plugin. Then press the "Dump" button in the bottom right of the dialog. Your Workbench will be unresponsive while the dump is taking place.
 
